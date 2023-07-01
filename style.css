@@ -180,7 +180,7 @@ color:#ffffff;
   }
 .title-hero{
 font-family: 'Bork', sans-serif;
-font-size: 30px;
+font-size: 20px;
 line-height: 130%;
 text-align: center;
 
@@ -209,13 +209,13 @@ color: #ffffff;
   
 
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 86.13%, #ffffff 100%),
-    url(./img/hr1.jpg);
+    url(./img/hr1.webp);
     background-repeat: no-repeat;
 }
 .desc{
     margin-bottom: 20px;
-font-size: 24px;
-line-height: 160%;
+font-size: 18px;
+line-height: 110%;
 /* or 38px */
 text-align: center;
 
@@ -269,9 +269,10 @@ opacity: 0.8;
 .title{
   font-family: 'Bork', sans-serif;
  text-align: center;
-font-size: 30px;
+font-size: 20px;
 line-height: 49px;
 margin-bottom: 10px;
+line-height: 130%;
 
 
 color: #1E1E1E;
@@ -1072,7 +1073,7 @@ justify-content: space-around;
 
 .catch {
   display: flex;
-  
+  padding: 5px;
   background-color:#1E1E1E;
   
   justify-content: space-around;
@@ -1113,6 +1114,7 @@ text-align: center;
 } 
 .free-text{
   display: flex;
+  padding: 0 5px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -1120,7 +1122,7 @@ text-align: center;
 }
 
 .button-hero.btn-order{
-  width: 200px;
+  width: 100%;
   text-align: center;
     box-sizing: border-box;
     align-items: center;
