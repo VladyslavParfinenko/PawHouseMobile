@@ -712,6 +712,7 @@ border-radius: 18.1182px;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
+    margin-bottom: 10px;
     
     
     
@@ -948,7 +949,7 @@ justify-content: space-around;
 }
 
 .close{
-  margin-left: 50px;
+  
   border-radius:2px;
   border:1px solid black;
   padding:8px 20px;
