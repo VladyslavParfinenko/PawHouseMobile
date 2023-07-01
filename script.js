@@ -354,7 +354,7 @@ form.addEventListener('submit', function (e) {
     '<p class="item-type">Unknown</p>' +
     '<p class="item-name">Unknown</p>' +
     '<img src="./img/stars.png" alt=""  class="img-stars"/>' +
-    '<p class="price">Unknown UAH</p>' +
+    '<p class="price">- UAH</p>' +
     '<button class="btn-order">' +
     '<svg class="icon-order">' +
     '<use xlink:href="./img/symbol-defs.svg#icon-shopping_bag"></use>' +
@@ -388,9 +388,7 @@ form.addEventListener('submit', function (e) {
     ul.setAttribute('data-category', category);
   
     products.forEach(function(product) {
-      var li = document.createElement('li');
-      li.innerHTML = product;
-      ul.appendChild(li);
+      ul.innerHTML +=product;
     });
   
     productList.insertAdjacentElement('afterend', ul);
