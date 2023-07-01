@@ -363,10 +363,10 @@ color: #E58411;
 }
 .item-product{
   
-  
+
   
 
-
+width: 45%;
 
 
 margin-bottom: 20px;
@@ -378,16 +378,22 @@ text-align: center;
 
 
 }
+.item-product:nth-child(odd){
+  margin-right: 10px;
+}
+
 .item-product:last-child{
     margin-right: 0;
 }
 .product-container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
     
-    margin-bottom: 50px;
-    
+    justify-content: center;
 }
 .item-img{
-    width: 217.9px;
+  
     border-radius:20px;
   
     
