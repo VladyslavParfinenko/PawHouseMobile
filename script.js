@@ -81,8 +81,8 @@ form.addEventListener('submit', function (e) {
 
   var products = [
     '<li class="item-product"><div class="image-container">' +
-    '<a class="item-link" data-fancybox="gallery4" href="./img/har-kor1/har-kor4.jpg">' +
-    '<img src="./img/har-kor1/har-kor4.jpg" alt="" class="item-img" />' +
+    '<a class="item-link" data-fancybox="gallery4" href="./img/har-kor1/har-kor4.webp">' +
+    '<img src="./img/har-kor1/har-kor4.webp" alt="" class="item-img" />' +
     '<div>' +
     '<ul class="item-description">' +
     '<li class="desc-container">' +
@@ -99,9 +99,9 @@ form.addEventListener('submit', function (e) {
     '</a>' +
     '</div>' +
     '<div style="display: none;">' +
-    '<a href="./img/har-kor1/har-kor2.jpg" data-fancybox="gallery4"></a>' +
-    '<a href="./img/har-kor1/har-kor3.jpg" data-fancybox="gallery4"></a>' +
-    '<a href="./img/har-kor1/har-kor1.jpg" data-fancybox="gallery4"></a>' +
+    '<a href="./img/har-kor1/har-kor2.webp" data-fancybox="gallery4"></a>' +
+    '<a href="./img/har-kor1/har-kor3.webp" data-fancybox="gallery4"></a>' +
+    '<a href="./img/har-kor1/har-kor1.webp" data-fancybox="gallery4"></a>' +
     
     '</div>' +
     '<p class="item-type">Лежанка</p>' +
@@ -114,8 +114,8 @@ form.addEventListener('submit', function (e) {
     '</svg>' +
     '</button></li>',
     '<li class="item-product"><div class="image-container">' +
-    '<a class="item-link" data-fancybox="gallery5" href="./img/har-sir1/har-sir5.jpg">' +
-    '<img src="./img/har-sir1/har-sir5.jpg" alt="" class="item-img" />' +
+    '<a class="item-link" data-fancybox="gallery5" href="./img/har-sir1/har-sir5.webp">' +
+    '<img src="./img/har-sir1/har-sir5.webp" alt="" class="item-img" />' +
     '<div>' +
     '<ul class="item-description">' +
     '<li class="desc-container">' +
@@ -132,10 +132,10 @@ form.addEventListener('submit', function (e) {
     '</a>' +
     '</div>' +
     '<div style="display: none;">' +
-    '<a href="./img/har-sir1/har-sir2.jpg" data-fancybox="gallery5"></a>' +
-    '<a href="./img/har-sir1/har-sir3.jpg" data-fancybox="gallery5"></a>' +
-    '<a href="./img/har-sir1/har-sir4.jpg" data-fancybox="gallery5"></a>' +
-    '<a href="./img/har-sir1/har-sir1.jpg" data-fancybox="gallery5"></a>' +
+    '<a href="./img/har-sir1/har-sir2.webp" data-fancybox="gallery5"></a>' +
+    '<a href="./img/har-sir1/har-sir3.webp" data-fancybox="gallery5"></a>' +
+    '<a href="./img/har-sir1/har-sir4.webp" data-fancybox="gallery5"></a>' +
+    '<a href="./img/har-sir1/har-sir1.webp" data-fancybox="gallery5"></a>' +
     
     '</div>' +
     '<p class="item-type">Лежанка</p>' +
@@ -148,8 +148,8 @@ form.addEventListener('submit', function (e) {
     '</svg>' +
     '</button></li>',
     '<li class="item-product"><div class="image-container">' +
-    '<a class="item-link" data-fancybox="gallery6" href="./img/inf-kor-l/inf-kor-l4.jpg">' +
-    '<img src="./img/inf-kor-l/inf-kor-l4.jpg" alt="" class="item-img" />' +
+    '<a class="item-link" data-fancybox="gallery6" href="./img/inf-kor-l/inf-kor-l4.webp">' +
+    '<img src="./img/inf-kor-l/inf-kor-l4.webp" alt="" class="item-img" />' +
     '<div>' +
     '<ul class="item-description">' +
     '<li class="desc-container">' +
@@ -166,10 +166,10 @@ form.addEventListener('submit', function (e) {
     '</a>' +
     '</div>' +
     '<div style="display: none;">' +
-    '<a href="./img/inf-kor-l/inf-kor-l2.jpg" data-fancybox="gallery6"></a>' +
-    '<a href="./img/inf-kor-l/inf-kor-l3.jpg" data-fancybox="gallery6"></a>' +
-    '<a href="./img/inf-kor-l/inf-kor-l1.jpg" data-fancybox="gallery6"></a>' +
-    '<a href="./img/inf-kor-l/inf-kor-l5.jpg" data-fancybox="gallery6"></a>' +
+    '<a href="./img/inf-kor-l/inf-kor-l2.webp" data-fancybox="gallery6"></a>' +
+    '<a href="./img/inf-kor-l/inf-kor-l3.webp" data-fancybox="gallery6"></a>' +
+    '<a href="./img/inf-kor-l/inf-kor-l1.webp" data-fancybox="gallery6"></a>' +
+    '<a href="./img/inf-kor-l/inf-kor-l5.webp" data-fancybox="gallery6"></a>' +
     
     '</div>' +
     '<p class="item-type">Лежанка</p>' +
@@ -182,8 +182,8 @@ form.addEventListener('submit', function (e) {
     '</svg>' +
     '</button></li>',
     '<li class="item-product"><div class="image-container">' +
-    '<a class="item-link" data-fancybox="gallery7" href="./img/inf-ser-l/inf-ser-l3.jpg">' +
-    '<img src="./img/inf-ser-l/inf-ser-l3.jpg" alt="" class="item-img" />' +
+    '<a class="item-link" data-fancybox="gallery7" href="./img/inf-ser-l/inf-ser-l3.webp">' +
+    '<img src="./img/inf-ser-l/inf-ser-l3.webp" alt="" class="item-img" />' +
     '<div>' +
     '<ul class="item-description">' +
     '<li class="desc-container">' +
@@ -200,11 +200,11 @@ form.addEventListener('submit', function (e) {
     '</a>' +
     '</div>' +
     '<div style="display: none;">' +
-    '<a href="./img/inf-ser-l/inf-ser-l2.jpg" data-fancybox="gallery7"></a>' +
-    '<a href="./img/inf-ser-l/inf-ser-l1.jpg" data-fancybox="gallery7"></a>' +
-    '<a href="./img/inf-ser-l/inf-ser-l4.jpg" data-fancybox="gallery7"></a>' +
-    '<a href="./img/inf-ser-l/inf-ser-l5.jpg" data-fancybox="gallery7"></a>' +
-    '<a href="./img/inf-ser-l/inf-ser-l6.jpg" data-fancybox="gallery7"></a>' +
+    '<a href="./img/inf-ser-l/inf-ser-l2.webp" data-fancybox="gallery7"></a>' +
+    '<a href="./img/inf-ser-l/inf-ser-l1.webp" data-fancybox="gallery7"></a>' +
+    '<a href="./img/inf-ser-l/inf-ser-l4.webp" data-fancybox="gallery7"></a>' +
+    '<a href="./img/inf-ser-l/inf-ser-l5.webp" data-fancybox="gallery7"></a>' +
+    '<a href="./img/inf-ser-l/inf-ser-l6.webp" data-fancybox="gallery7"></a>' +
     
     '</div>' +
     '<p class="item-type">Лежанка</p>' +
@@ -223,8 +223,8 @@ form.addEventListener('submit', function (e) {
 
   var products2 = [
     '<li class="item-product"><div class="image-container">' +
-    '<a class="item-link" data-fancybox="gallery8" href="./img/inf-tkor-l/inf-tkor-l2.jpg">' +
-    '<img src="./img/inf-tkor-l/inf-tkor-l2.jpg" alt="" class="item-img" />' +
+    '<a class="item-link" data-fancybox="gallery8" href="./img/inf-tkor-l/inf-tkor-l2.webp">' +
+    '<img src="./img/inf-tkor-l/inf-tkor-l2.webp" alt="" class="item-img" />' +
     '<div>' +
     '<ul class="item-description">' +
     '<li class="desc-container">' +
@@ -241,10 +241,10 @@ form.addEventListener('submit', function (e) {
     '</a>' +
     '</div>' +
     '<div style="display: none;">' +
-    '<a href="./img/inf-tkor-l/inf-tkor-l1.jpg" data-fancybox="gallery8"></a>' +
-    '<a href="./img/inf-tkor-l/inf-tkor-l3.jpg" data-fancybox="gallery8"></a>' +
-    '<a href="./img/inf-tkor-l/inf-tkor-l4.jpg" data-fancybox="gallery8"></a>' +
-    '<a href="./img/inf-tkor-l/inf-tkor-l5.jpg" data-fancybox="gallery8"></a>' +
+    '<a href="./img/inf-tkor-l/inf-tkor-l1.webp" data-fancybox="gallery8"></a>' +
+    '<a href="./img/inf-tkor-l/inf-tkor-l3.webp" data-fancybox="gallery8"></a>' +
+    '<a href="./img/inf-tkor-l/inf-tkor-l4.webp" data-fancybox="gallery8"></a>' +
+    '<a href="./img/inf-tkor-l/inf-tkor-l5.webp" data-fancybox="gallery8"></a>' +
     
     '</div>' +
     '<p class="item-type">Лежанка</p>' +
@@ -257,8 +257,8 @@ form.addEventListener('submit', function (e) {
     '</svg>' +
     '</button></li>',
     '<li class="item-product"><div class="image-container">' +
-    '<a class="item-link" data-fancybox="gallery9" href="./img/step1/step2.jpg">' +
-    '<img src="./img/step1/step2.jpg" alt="" class="item-img" />' +
+    '<a class="item-link" data-fancybox="gallery9" href="./img/step1/step2.webp">' +
+    '<img src="./img/step1/step2.webp" alt="" class="item-img" />' +
     '<div>' +
     '<ul class="item-description">' +
     '<li class="desc-container">' +
@@ -275,11 +275,11 @@ form.addEventListener('submit', function (e) {
     '</a>' +
     '</div>' +
     '<div style="display: none;">' +
-    '<a href="./img/step1/step1.jpg" data-fancybox="gallery9"></a>' +
-    '<a href="./img/step1/step3.jpg" data-fancybox="gallery9"></a>' +
-    '<a href="./img/step1/step4.jpg" data-fancybox="gallery9"></a>' +
-    '<a href="./img/step1/step5.jpg" data-fancybox="gallery9"></a>' +
-    '<a href="./img/step1/step6.jpg" data-fancybox="gallery9"></a>' +
+    '<a href="./img/step1/step1.webp" data-fancybox="gallery9"></a>' +
+    '<a href="./img/step1/step3.webp" data-fancybox="gallery9"></a>' +
+    '<a href="./img/step1/step4.webp" data-fancybox="gallery9"></a>' +
+    '<a href="./img/step1/step5.webp" data-fancybox="gallery9"></a>' +
+    '<a href="./img/step1/step6.webp" data-fancybox="gallery9"></a>' +
     
     '</div>' +
     '<p class="item-type">Сходи</p>' +
@@ -326,8 +326,8 @@ form.addEventListener('submit', function (e) {
     '</svg>' +
     '</button></li>',
     '<li class="item-product"><div class="image-container">' +
-    '<a class="item-link" data-fancybox="gallery11" href="./img/inf-ser-l/inf-ser-l1.jpg">' +
-    '<img src="./img/inf-ser-l/inf-ser-l1.jpg" alt="" class="item-img" />' +
+    '<a class="item-link" data-fancybox="gallery11" href="./img/inf-ser-l/inf-ser-l1.webp">' +
+    '<img src="./img/inf-ser-l/inf-ser-l1.webp" alt="" class="item-img" />' +
     '<div>' +
     '<ul class="item-description">' +
     '<li class="desc-container">' +
@@ -344,11 +344,11 @@ form.addEventListener('submit', function (e) {
     '</a>' +
     '</div>' +
     '<div style="display: none;">' +
-    '<a href="./img/inf-ser-l/inf-ser-l2.jpg" data-fancybox="gallery11"></a>' +
-    '<a href="./img/inf-ser-l/inf-ser-l3.jpg" data-fancybox="gallery11"></a>' +
-    '<a href="./img/inf-ser-l/inf-ser-l4.jpg" data-fancybox="gallery11"></a>' +
-    '<a href="./img/inf-ser-l/inf-ser-l5.jpg" data-fancybox="gallery11"></a>' +
-    '<a href="./img/inf-ser-l/inf-ser-l6.jpg" data-fancybox="gallery11"></a>' +
+    '<a href="./img/inf-ser-l/inf-ser-l2.webp" data-fancybox="gallery11"></a>' +
+    '<a href="./img/inf-ser-l/inf-ser-l3.webp" data-fancybox="gallery11"></a>' +
+    '<a href="./img/inf-ser-l/inf-ser-l4.webp" data-fancybox="gallery11"></a>' +
+    '<a href="./img/inf-ser-l/inf-ser-l5.webp" data-fancybox="gallery11"></a>' +
+    '<a href="./img/inf-ser-l/inf-ser-l6.webp" data-fancybox="gallery11"></a>' +
     
     '</div>' +
     '<p class="item-type">Unknown</p>' +
