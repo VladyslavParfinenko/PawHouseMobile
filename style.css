@@ -59,7 +59,7 @@ img {
     position: absolute;
     z-index: 1;
     /* Добавьте это свойство */
-  
+  width: 100%;
   
     
 }
@@ -69,7 +69,9 @@ img {
   margin-left: -10px;
 }
 .main-nav {
-    
+  
+    display: flex;
+  justify-content: space-between;
             margin-top: -30px;
             
             
@@ -166,8 +168,8 @@ color:#ffffff;
   
   .contact {
     
-font-size: 18px;
-line-height: 21px;
+font-size: 12px;
+
 
 
 
@@ -183,6 +185,7 @@ font-family: 'Bork', sans-serif;
 font-size: 20px;
 line-height: 130%;
 text-align: center;
+margin-top: 50px;
 
 /* or 104px */
 
@@ -231,7 +234,7 @@ opacity: 0.8;
   justify-content: center;
   
   height: 56px;
-  
+  width: 230px;
   
   font-weight: 800;
   background: rgba(255, 255, 255, 0.15);
@@ -1090,13 +1093,13 @@ justify-content: space-around;
 }
 
 .img-box {
-  width: 150px;
+  max-width: 300px;
   border-radius: 20px;
   border: 2px solid #F6973F;
 }
 
 .img-box img {
-  width: 100%;
+  
   height: auto;
 }
 .firm{
@@ -1130,7 +1133,7 @@ text-align: center;
     display: flex;
     justify-content: center;
     
-    
+    max-width: 230px;
     margin: 0 auto;
     
     font-weight: 800;
@@ -1161,4 +1164,99 @@ text-align: center;
     content: "Введите номер в формате +380XX XXX-XX-XX";
     color: red;
     font-size: 12px;
+  }
+
+
+
+
+
+  .menu {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    align-items:center;
+  }
+  
+  @media (max-width: 767px) {
+    .menu {
+      display: none;
+    }
+  }
+  
+  .menu .link {
+    padding: 10px;
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .menu .link:hover,
+  .menu .link:focus {
+    text-decoration: underline;
+  }
+  
+  .menu-toggle {
+    min-height: 40px;
+    min-width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  
+    
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+  }
+  
+  @media (min-width: 768px) {
+    .menu-toggle {
+      display: none;
+    }
+  }
+  
+  .menu-toggle:hover,
+  .menu-toggle:focus {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    ;
+    padding: 60px;
+    background-color:#1E1E1E;
+    z-index: 999;
+  
+    transform: translateX(100%);
+    transition: transform 250ms ease-in-out;
+  }
+  
+  .menu-container.is-open {
+    transform: translateX(0);
+  }
+  
+  .menu-container .menu-toggle {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    color: #fff;
+  }
+  
+  .mobile-menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .mobile-menu .link {
+    display: block;
+    
+    color: #fff;
+    text-decoration: none;
   }
